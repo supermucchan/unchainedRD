@@ -1,0 +1,12 @@
+[
+    {
+        "id": "etree",
+        "versions": [
+            {
+                "plugin": 2.0,
+                "engine": 2.0,
+                "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/1337x/1337_v2.0.unchained"
+            }
+        ]
+    }
+]
