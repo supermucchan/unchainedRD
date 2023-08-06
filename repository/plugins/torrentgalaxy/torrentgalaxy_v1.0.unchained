@@ -1,0 +1,60 @@
+{
+  "engine_version": 2.0,
+  "version": 1.0,
+  "url": "https://torrentgalaxy.to",
+  "name": "torrentgalaxy.to",
+  "description": "Parser for torrentgalaxy.to",
+  "supported_categories": {
+    "all": "0",
+    "games": "43",
+    "tv": "6",
+    "movies": "42",
+    "music": "7",
+    "books": "12",
+    "anime": "28",
+    "software": "5"
+  },
+  "search": {
+    "category": "${url}/torrents.php?c${category}=1&search=${query}&lang=0&page=${page}",
+    "no_category": "${url}/torrents.php?search=${query}&lang=0&page=${page}",
+    "page_start": 0
+  },
+  "download": {
+    "direct": {
+      "class": "tgxtable",
+      "entry-class": "tgxtablerow"
+    },
+    "regexes": {
+      "name": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "<b>([^<]+)</b></a>",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      },
+      "details": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "data-href=\"(/torrent/[^\"]+)",
+            "group": 1,
+            "slug_type": "append_url"
+          }
+        ]
+      },
+      "magnet": {
+        "regex_use": "first",
+        "regexps": [
+          {
+            "regex": "href=\"(magnet:\\?xt=urn:btih:[^\"]+)",
+            "group": 1,
+            "slug_type": "complete"
+          }
+        ]
+      }
+    }
+  }
+}
