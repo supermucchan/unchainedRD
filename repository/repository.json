@@ -1,5 +1,5 @@
 {
-    "repository_version": 1.1,
+    "repository_version": 1.2,
     "name": "Unchained",
     "description": "Unchained main repository",
     "author": "LivingWithHippos",
@@ -11,6 +11,11 @@
                     "plugin": 2.0,
                     "engine": 2.0,
                     "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/etree/etree_v2.0.unchained"
+                },
+                {
+                    "plugin": 3.0,
+                    "engine": 2.5,
+                    "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/etree/etree_v3.0.unchained"
                 }
             ]
         },
@@ -31,6 +36,11 @@
                     "plugin": 1.0,
                     "engine": 2.0,
                     "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/bitsearch/bitsearch_v1.0.unchained"
+                },
+                {
+                    "plugin": 2.0,
+                    "engine": 2.5,
+                    "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/bitsearch/bitsearch_v2.0.unchained"
                 }
             ]
         },
@@ -41,6 +51,11 @@
                     "plugin": 1.0,
                     "engine": 2.2,
                     "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/fitgirl/fitgirl_v1.0.unchained"
+                },
+                {
+                    "plugin": 2.0,
+                    "engine": 2.5,
+                    "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/fitgirl/fitgirl_v2.0.unchained"
                 }
             ]
         },
@@ -71,6 +86,11 @@
                     "plugin": 1.0,
                     "engine": 2.0,
                     "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/nyaa/nyaa_v1.0.unchained"
+                },
+                {
+                    "plugin": 2.0,
+                    "engine": 2.5,
+                    "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/nyaa/nyaa_v2.0.unchained"
                 }
             ]
         },
@@ -81,6 +101,11 @@
                     "plugin": 2.1,
                     "engine": 2.2,
                     "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/rlsbb/rlsbb_v2.1.unchained"
+                },
+                {
+                    "plugin": 3.0,
+                    "engine": 2.5,
+                    "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/rlsbb/rlsbb_v3.0.unchained"
                 }
             ]
         },
@@ -91,6 +116,11 @@
                     "plugin": 1.2,
                     "engine": 2.0,
                     "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/scene-rls/scene-rls_v1.2.unchained"
+                },
+                {
+                    "plugin": 2.0,
+                    "engine": 2.5,
+                    "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/scene-rls/scene-rls_v2.0.unchained"
                 }
             ]
         },
