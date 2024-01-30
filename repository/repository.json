@@ -41,6 +41,11 @@
                     "plugin": 2.0,
                     "engine": 2.5,
                     "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/bitsearch/bitsearch_v2.0.unchained"
+                },
+                {
+                    "plugin": 2.1,
+                    "engine": 2.5,
+                    "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/bitsearch/bitsearch_v2.1.unchained"
                 }
             ]
         },
