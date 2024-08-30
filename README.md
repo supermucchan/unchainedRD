@@ -4,7 +4,7 @@ This repository stores the Unchained app official plugins repository and the plu
 
 A more complete description is available on the official repository of Unchained on Github
 
- ## Create your own
+## Create your own
 
 To be updated!
 
@@ -33,3 +33,9 @@ A json file with a description of the repository and the available plugins
 ```
 
 There can be multiple versions of a plugin to let people with older versions of Unchained use them.
+
+## Unsupported websites
+
+These websites are either down or have added protections such as cloudflare to prevent scraping and cannot be added for now
+
+- the pirate bay

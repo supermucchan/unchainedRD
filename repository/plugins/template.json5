@@ -58,6 +58,7 @@
   "download": {
     // "internal" is one of the parsing methods.
     // the links are retrieved from the search page and one by one opened and parsed
+    // do this only if direct or table_direct is not possible since it's heavier to perform
     "internal": {
       // "link" is the regex to parse the page link to parse further
       "link": {
@@ -89,8 +90,11 @@
       // restrict the search to a particular id. if id is set class will be ignored
       "id": "table-id",
       // restrict the search of a single entry data inside a single item class.
-      // This is NOT OPTIONAL, we need it to separate the data on a single page
+      // This or entry-tag are MANDATORY, we need it to separate the data on a single page
       "entry-class": "entry-class-name"
+      // restrict the search of a single entry data inside a single html tag.
+      // This or entry-tag are MANDATORY, we need it to separate the data on a single page
+      "entry-tag": "div"
     },
     // "table_direct" is one of the parsing methods.
     // parse directly from an html table in the search page
