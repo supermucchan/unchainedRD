@@ -12,8 +12,8 @@
     "software": "app"
   },
   "search": {
-    "category": "${url}/search?q=${query}&category=${category}&p=${page}",
-    "no_category": "${url}/search?q=${query}&p=${page}",
+    "category": "${url}/search?q=${query}&category=${category}&orderby=seeders&p=${page}",
+    "no_category": "${url}/search?q=${query}&orderby=seeders&p=${page}",
     "page_start": 1
   },
   "download": {
