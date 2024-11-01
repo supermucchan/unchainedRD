@@ -6,7 +6,7 @@
   "description": "Parser for Nyaa",
   "author": "morpheasgr, LivingWithHippos",
   "supported_categories": {
-    "all": "?0_0",
+    "all": "None",
     "anime": "?1_0",
     "software": "?6_0",
     "games": "?6_2",
