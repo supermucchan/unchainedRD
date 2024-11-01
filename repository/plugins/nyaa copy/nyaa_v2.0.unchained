@@ -1,18 +1,22 @@
 {
   "engine_version": 2.5,
   "version": 2.0,
-  "url": "https://sukebei.nyaa.si",
+  "url": "https://nyaa.si",
   "name": "Nyaa",
   "description": "Parser for Nyaa",
   "author": "morpheasgr, LivingWithHippos",
   "supported_categories": {
-    "all": "?f=0",
-    "no remake": "?f=1",
-    "trusted": "?f=2"
+    "all": "0_0",
+    "anime": "1_0",
+    "software": "6_0",
+    "games": "6_2",
+    "music": "2_0",
+    "tv": "4_0",
+    "books": "3_0"
   },
   "search": {
-    "category": "${url}/${category}&c=2_2$q=${query}&p=${page}&s=${sorting}&o=${order}",
-    "no_category": "${url}/${category}&c=2_2$q=${query}&p=${page}&s=${sorting}&o=${order}",
+    "category": "${url}/?q=${query}&c=${category}&p=${page}&s=${sorting}&o=${order}",
+    "no_category": "${url}/?q=${query}&p=${page}&s=${sorting}&o=${order}",
     "page_start": 1,
     "sorting": {
       "comments": "comments",
