@@ -6,11 +6,11 @@
   "description": "Parser for Nyaa",
   "author": "morpheasgr, LivingWithHippos",
   "supported_categories": {
-    "all": "None",
-    "pokochin": "1_0",
-    "dekachin": "6_0",
-    "syobochin": "6_2",
-    "musico": "2_0",
+    "all": "0_0",
+    "anime": "1_0",
+    "software": "6_0",
+    "games": "6_2",
+    "music": "2_0",
     "tv": "4_0",
     "books": "3_0"
   },
