@@ -2,7 +2,7 @@
   "repository_version": 1.3,
   "name": "Custom",
   "description": "Custom",
-  "author": "LivingWithHippos",
+  "author": "Custom",
   "plugins": [
     {
       "id": "nyaa",
