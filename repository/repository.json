@@ -11,12 +11,12 @@
         {
           "plugin": 1.0,
           "engine": 2.0,
-          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/nyaa/nyaa_v1.0.unchained"
+          "link": "https://github.com/supermucchan/unchainedRD/raw/main/repository/plugins/nyaa/nyaa_v1.0.unchained"
         },
         {
           "plugin": 2.0,
           "engine": 2.5,
-          "link": "https://gitlab.com/LivingWithHippos/unchained-plugins/-/raw/main/repository/plugins/nyaa/nyaa_v2.0.unchained"
+          "link": "https://github.com/supermucchan/unchainedRD/raw/main/repository/plugins/nyaa/nyaa_v2.0.unchained"
         }
       ]
     }
