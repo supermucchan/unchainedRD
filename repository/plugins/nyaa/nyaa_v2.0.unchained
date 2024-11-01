@@ -15,7 +15,7 @@
     "books": "3_0"
   },
   "search": {
-    "category": "${url}/?${category}&q=${query}&p=${page}&s=${sorting}&o=${order}",
+    "category": "${url}/${category}&q=${query}&p=${page}&s=${sorting}&o=${order}",
     "no_category": "${url}/?f=0&q=${query}&p=${page}&s=${sorting}&o=${order}",
     "page_start": 1,
     "sorting": {
